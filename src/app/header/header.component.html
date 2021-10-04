@@ -1,0 +1,14 @@
+<mat-toolbar color="primary" >
+    <span class="hfont" >UXTEAM</span>
+    <span class="example-spacer"></span>
+     <button mat-button [matMenuTriggerFor]="menu">
+        <mat-icon>menu</mat-icon>
+     </button>
+     <mat-menu #menu="matMenu">
+       <button mat-menu-item routerLink="/home" routerLinkActive="active">Home</button>
+       <button mat-menu-item routerLink="/stages" routerLinkActive="active">Stages</button>
+       <button mat-menu-item routerLink="/strategies" routerLinkActive="active">Strategies</button>
+      
+     </mat-menu>
+    
+  </mat-toolbar>

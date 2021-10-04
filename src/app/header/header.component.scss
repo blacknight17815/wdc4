@@ -1,0 +1,33 @@
+
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+
+  .mat-toolbar.mat-primary {
+    background: #48337B;
+    color: #fff;
+  }
+
+.hfont{
+    font-family: 'Hemi Head FourTwentySix', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #b7cc84;
+
+}
+
+.mat-menu-trigger{
+    background: none;
+    color: #b7cc84;
+    text-decoration: none;
+    animation: none;
+    border: none;
+}
+
